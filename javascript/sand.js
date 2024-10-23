@@ -119,10 +119,33 @@ const todos = [
 //console.log(todos[0].text)
 //console.log(todos[1].text)
 //console.log(todos[2].text)
-console.log(todos)
+//console.log(todos)
 
 //JSON 
 /* data is sent to server in a JSON format*/
 
 const todosJSON = JSON.stringify(todos)// convert javascript to JSON format
-console.log(todosJSON)
+//console.log(todosJSON)
+
+//Loops
+
+//for loop
+// for(let i = 0; i <= 10; i++) {
+//     console.log(`For loop numbers are ${i}`)
+// }
+    
+
+
+//while loop
+// let i = 0;
+// while(i < 10) {
+//     console.log(`While loop numbers are: ${i}`);
+//     1++;
+// }
+
+
+for(let todo of todos) {
+    //console.log(todo.text);
+}
+
+// forEach, map, filter
